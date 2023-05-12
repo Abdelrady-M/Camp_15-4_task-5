@@ -1,0 +1,146 @@
+/* Start Variables */
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* End Variables */
+/* Links */
+.links .container {
+    margin-top: 50px;
+    background-color: #F7F9FA;
+    height: 550px;
+    padding:3.4000000000000004rem 18rem;
+}
+.links .container .btn {
+    position: relative;
+    align-items: center;
+    display: inline-flex;
+    width: auto;
+    height: 40px;
+    padding: 0 12px;
+    border: 1px solid #1c1d1f;
+    background: transparent;
+    color: #1c1d1f;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.links .container .btn:hover {
+    background: #ddd;
+    transition: 0.3s;
+}
+.links .container .topics-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.links .container .topics-container .trending .topics {
+        margin-top: 2.4rem;
+}
+.links .container .trending h1 {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+.links .container .trending .topics a {
+    color: #5624d0;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.links .container .trending .topics p {
+    color: #6a6f73;
+    margin-top: 0.8rem;
+}
+/* Links */
+/* Kids */
+.Kids .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: 50px;
+    height: 600px;
+}
+.Kids .container .image img {
+    width: 100%;
+    flex-basis: 50% ;
+}
+.Kids .container .info{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    width: 800px;
+}
+.Kids .container .info h1{
+    color: #fff;
+    font-size: 80px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.Kids .container .info p {
+    color: #fff;
+    font-size: 40px;
+    width: 900px;
+    margin: 0;
+}
+/* Kids */
+/* category */
+.category {
+    width: 100%;
+    max-width: 134rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.category .container {
+    width: 1500px;
+}
+.category .container .top-category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.category .container .top-category .cat-info .image-cat img:hover {
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
+
+.category .container .top-category .cat-info .titel span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1c1d1f;
+    cursor: pointer;
+} 
+/* category */
